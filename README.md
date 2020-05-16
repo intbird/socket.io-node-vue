@@ -1,19 +1,29 @@
 # socketiocontrol-server
 
-`已升级为https,证书不会上传,本地调试无影响`
+> this repo is `no longer update` at time: 2020-05-15  
+> and new repo is here:  
+> [https://github.com/intbird/intbird](https://github.com/intbird/intbird)
+
+>
+>`已升级为https,证书不会上传`  
+>here will tell you how to update your website use https:  
+[Centos7 letsencrypt ssl 证书](https://blog.csdn.net/intbird/article/details/105159462)
+
 ------
+
 # 1. website:
  https://intbird.world/
 
-## 2. socket url :
+## 2. socket web url :
    https://intbird.world/#/socketio
 
-## 3. socket server url:
+## 3. socket server path:
    https://intbird.world:996
 
 # 4. repo migrate:
-this repo will discard and new repo is:
- https://github.com/intbird/intbird
+this repo is `no longer update` at time: 2020-05-15  
+and new repo is here:  
+[https://github.com/intbird/intbird](https://github.com/intbird/intbird)
 ------
 # run
 #### install dependencies
@@ -28,30 +38,31 @@ npm run dev
 ------
 
 # key function
-###### 1.phone send message to pc or pc send message to phone
-![-default-](gituser/phone-send-meeage-to-pc.png)
+###### 1. phone send message to pc or pc send message to phone
+![截图](gituser/phone-send-meeage-to-pc.png)
 
-###### 2.push text to phone clipboard or get phone clipboard
-![-default-](gituser/push-to-phone-clipbord.png)
+###### 2. push text to phone clipboard or get phone clipboard
+![截图](gituser/push-to-phone-clipbord.png)
 
 
-###### 3.etc...
-when i have time....
+###### 3. developing...
+such as use MQ to send message queue ...   
+new repo: 
+[https://github.com/intbird/intbird](https://github.com/intbird/intbird)
 
 --------
 
-###### 4.some picture
-![-default-](gituser/run-local-server.png)
-![-default-](gituser/-default-.png)
-![-default-](gituser/run-local-client.png)
-![-default-](gituser/if-this-error-restart-mongo.png)
-![-default-](gituser/restart-mongo.png)
-![-default-](gituser/send message to all opened web.png)
-![-default-](gituser/messages-panel.png)
-![-default-](gituser/phone-connected-1.png)
-![-default-](gituser/phone-connected-2.png)
-![-default-](gituser/pc-send-meesage-to-phone.png)
-![-default-](gituser/phone-send-meeage-to-pc.png)
-![-default-](gituser/push-to-phone-clipbord.png)
-![-default-](gituser/get-phone-screen-image.png)
+###### 4. screen shots
+![截图](gituser/run-local-server.png)
+![截图](gituser/run-local-client.png)
+![截图](gituser/if-this-error-restart-mongo.png)
+![截图](gituser/restart-mongo.png)
+![截图](gituser/send-message-to-all-opened-web.png)
+![截图](gituser/messages-panel.png)
+![截图](gituser/phone-connected-1.png)
+![截图](gituser/phone-connected-2.png)
+![截图](gituser/pc-send-meesage-to-phone.png)
+![截图](gituser/phone-send-meeage-to-pc.png)
+![截图](gituser/push-to-phone-clipbord.png)
+![截图](gituser/get-phone-screen-image.png)
 
