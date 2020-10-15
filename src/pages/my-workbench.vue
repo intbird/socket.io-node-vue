@@ -16,7 +16,7 @@
         </el-col>
       </el-row>
     </div>
-    mongodb-url: mongodb://root:xxxx@intbird.world:27017/intbird
+    mongodb-url: mongodb://root:xxxx@intbird.net:27017/intbird
   </div>
 </template>
 <script>

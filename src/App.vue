@@ -24,7 +24,7 @@
           </el-submenu>
 
           <el-menu-item>
-            <a href="https://intbird.world/intbird.html" target="_blank">我的简历</a>
+            <a href="https://intbird.net/intbird.html" target="_blank">我的简历</a>
           </el-menu-item>
         </el-menu>
       </el-header>
