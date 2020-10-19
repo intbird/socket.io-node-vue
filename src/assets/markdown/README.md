@@ -1,12 +1,12 @@
 ServiceLoader
 ========
 
-This repo is for publish aar lib for  [intbird repo](http://intbird.world:8081/nexus/content/repositories/public/).
+This repo is for publish aar lib for  [intbird repo](http://intbird.net:8081/nexus/content/repositories/public/).
 
 how about
 ![intbird](./images/intbird.png)
 
-#### How to use it ? 
+#### How to use it ?
 
 --------
 #### 1.add maven url in root project `build.gradle` file
@@ -15,7 +15,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url "http://intbird.world:8081/nexus/content/repositories/public/" }
+        maven { url "http://intbird.net:8081/nexus/content/repositories/public/" }
     }
 
     configurations.all {
@@ -30,7 +30,7 @@ allprojects {
 ```
 
 #### 2.add classpath in root project `build.gradle` file ,
-$lastVersion = 1.0.0 [click here to see more info](CHANGELOG.md)  
+$lastVersion = 1.0.0 [click here to see more info](CHANGELOG.md)
 
 ```
 dependencies {

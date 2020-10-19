@@ -8,7 +8,7 @@ var connection_options = {
   password: process.argv[3],
 }
 
-var hosts = ['intbird.world']
+var hosts = ['intbird.net']
 
 var cmds = [
   'ls -l',

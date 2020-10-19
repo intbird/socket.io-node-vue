@@ -63,7 +63,7 @@
             icon: 'el-icon-s-promotion',
             title: 'SocketIO Control',
             menus: [
-              {title: 'online', url: 'https://intbird.world/#/socketio'},
+              {title: 'online', url: 'https://intbird.net/#/socketio'},
               {title: 'server', url: 'https://github.com/intbird/SocketIOControl-Server'},
               {title: 'android', url: 'https://github.com/intbird/SocketIOControl-Android'},
             ]
