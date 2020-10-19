@@ -12,7 +12,8 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build": "node build/build.js",
-    "socketio-server": "brew services start mongodb-community && node node/socketio/socketio.js"
+    "start-mongod": "brew services start mongodb-community",
+    "socketio-server": "node node/socketio/socketio.js"
   },
   "dependencies": {
     "ajv": "^6.10.0",

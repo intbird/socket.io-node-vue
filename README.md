@@ -1,39 +1,41 @@
 # socketiocontrol-server
 
-> this repo is `no longer update` at time: 2020-05-15
-> and new repo is here:
-> [https://github.com/intbird/intbird](https://github.com/intbird/intbird)
+> *this repo is `no longer update` from time: 2020-05-15`*
+> new repo is here:
+>[https://github.com/intbird/intbird.net](https://github.com/intbird/intbird.net)
 
 >
 >`已升级为https,证书不会上传`
 >here will tell you how to update your website use https:
-[Centos7 letsencrypt ssl 证书](https://blog.csdn.net/intbird/article/details/105159462)
+>1.[Centos7 letsencrypt ssl 证书](https://blog.csdn.net/intbird/article/details/105159462)
+>2.[配置Caddy2的Caddyfile自动https](https://blog.csdn.net/intbird/article/details/108501270)
 
 ------
 
 # 1. website:
- https://intbird.net/
+https://intbird.net/
 
 ## 2. socket web url :
-   https://intbird.net/#/socketio
+https://intbird.net/#/socketio
 
-## 3. socket server path:
-   https://intbird.net:996
+## 3. socket server port:
+https://intbird.net:996
 
-# 4. repo migrate:
-this repo is `no longer update` at time: 2020-05-15
-and new repo is here:
-[https://github.com/intbird/intbird](https://github.com/intbird/intbird)
+## 4. includes
+nodesjs 14.x & mongodb 4.x
+
 ------
+
 # run
+
 #### install dependencies
-npm install
+>npm install
 
 #### start socketio server
-npm run socketio-server
+>npm run socketio-server
 
-#### serve with hot reload at localhost:8080
-npm run dev
+#### start webpage
+>npm run dev
 
 ------
 
@@ -47,9 +49,6 @@ npm run dev
 
 ###### 3. developing...
 such as use MQ to send message queue ...
-new repo:
-[https://github.com/intbird/intbird](https://github.com/intbird/intbird)
-
 --------
 
 ###### 4. screen shots
